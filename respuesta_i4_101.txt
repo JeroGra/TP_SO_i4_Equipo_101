@@ -1,4 +1,0 @@
-A_Pagina Testing Color de fondo: blue (azul).
-B_Pagina Desarrollo Color de fondo: yellow (amarillo).
-C_Pagina Main Color de fondo: En css aparece yellow y blue pero se ve Blanco al abriri el index.
-D_Quedo el Favicon de BETA.
