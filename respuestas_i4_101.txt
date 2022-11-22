@@ -2,3 +2,21 @@ A_Pagina Testing Color de fondo: blue (azul).
 B_Pagina Desarrollo Color de fondo: yellow (amarillo).
 C_Pagina Main Color de fondo: En css aparece yellow y blue pero se ve Blanco al abriri el index.
 D_Quedo el Favicon de BETA.
+
+E_ No se generaron inconvenientes por que BETA actualizo el repositorio local con los cambios realizados por ALFA
+GAMMA tambien realizo la misma accion, por ende no se generaron problemas (Lo realizamos asincronicamente debido a no poder reunirnos en tiempor real). Igualmente sabemos que si 
+BETA no actualizaba su repo local no le dejaria pushear los cambios, lo mismo con GAMMA.
+
+F_ Ningunos.
+
+G_En caso de haber generado el error de no poder pushear por no tener los cambios previamentes realizados y subidos al repo externo, las soluciones son las siguientes:
+
+1_ ALFA,BETA,GAMMA Forkea el repo y suben los cambios a sus repositorios forkeados, luego se generan pull-request's al el repo padre.
+2_ ALFA,BETA,GAMMA crean cada uno una nueva branch ejmplo: alfa_testing, beta_testing, etc. Y suben los cambios a las ramas, una vez subidos se puede hacer un merge de la rama principal testing con las ramas secundarias 
+de testing de cada integrante.
+3_ AlFA genera su cambio y lo pushea, le informa a BETA, BETA hace un pull de testing (actualiza su repo local con los cambios subidos por ALFA al repo externo), agrega su parte, pushea y le avisa a GAMMA Cual repite el proceso realizado por BETA.
+
+H_ si se utilisa el push -f ALFA subira los cambios normales y no pasara nada. pero si lo hace BETA pisara los cambios de ALFA, es decir que los cambios realizados por ALFA no se veran (desaparecen, son pisados). Y luego al hacerlo GAMMA tambien se perderan los de BETA.
+por ende solo se vera el nombre, apellido, fecha y hora que coloco GAMMA.
+
+I_ Hacer un merge en la rama Desarrollo de la rama testing.
